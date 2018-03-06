@@ -3,6 +3,7 @@ using NetCDF
 using Plots
 #Exports
 export getvar
+export animate_heatmap
 # package code goes here
 
 function getvar(file::AbstractString,varname::AbstractString)
